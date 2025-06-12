@@ -130,7 +130,7 @@ async function DisplayAlbums() {
 
 async function main() {
   // Get the list of all the songs
-  await getSongs("South");
+  await getSongs();
   if (songs.length > 0) {   //adding if statement
     playMusic(songs[0], true);
   }
