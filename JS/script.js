@@ -118,7 +118,7 @@ async function DisplayAlbums() {
   // load the playlist as card is clicked
   Array.from(document.getElementsByClassName("card")).forEach((e) => {
     e.addEventListener("click", async (item) => {
-      songs = await getSongs(`Songs/${item.currentTarget.dataset.folder}`);
+      songs = await getSongs(item.currentTarget.dataset.folder); //changing
       playMusic(songs[0])
     });
   });
@@ -126,8 +126,11 @@ async function DisplayAlbums() {
 
 async function main() {
   // Get the list of all the songs
-  await getSongs("Songs/south");
-  playMusic(songs[0], true);
+  await getSongs("south");
+  if (songs.length > 0) {   //adding if statement
+    playMusic(songs[0], true);
+  }
+
 
   //Display all album
   DisplayAlbums();
