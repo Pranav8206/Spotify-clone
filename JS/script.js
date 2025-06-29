@@ -22,7 +22,7 @@ function convertToMinSec(seconds) {
 
 async function getSongs(folder) {
   currFolder = folder;
-  let a = await fetch(`Songs/${folder}/`);
+  let a = await fetch(`Songs/${currFolder }/`);
   let response = await a.text();
   // console.log(response)
   let div = document.createElement("div");
@@ -34,7 +34,7 @@ async function getSongs(folder) {
   for (let index = 0; index < as.length; index++) {
     const element = as[index];
     if (element.href.endsWith(".mp3")) {
-      songs.push(element.href.split(`Songs/${folder}/`)[1]);
+      songs.push(element.href.split(`Songs/${currFolder }/`)[1]);
     }
   }
 
