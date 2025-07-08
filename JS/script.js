@@ -79,7 +79,7 @@ function getSongs(folder, trackList) {
 }
 
 function playMusic(track, pause = false) {
-  currentSong.src = `songs/${currFolder}/${track}`;
+  currentSong.src = `Songs/${currFolder}/${track}`;
   if (!pause) {
     currentSong.play();
     play.src = "svgs/play.svg";
