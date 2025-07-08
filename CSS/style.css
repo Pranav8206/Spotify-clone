@@ -62,6 +62,7 @@ body {
     padding-top: 5px;
 }
 
+<<<<<<< HEAD
 .logoname{
     display: flex;
     align-items: center;
@@ -70,6 +71,8 @@ body {
     gap: 10px;
 }
 
+=======
+>>>>>>> 9fa087415c85cbc0b34e23fd06bc8d3ef0ec6720
 .cancel { 
     display: none;
     cursor: pointer;

@@ -1,4 +1,3 @@
-// New static-friendly version of script.js
 
 console.log("Hello (Static Version)");
 
