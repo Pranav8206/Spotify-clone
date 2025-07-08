@@ -1,0 +1,36 @@
+.border{
+    border: 2px solid none;
+
+}
+
+.bg-gray{
+    background-color: #292929;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555555;
+    border-radius: 6px;
+    border: 2px solid #333333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888888;
+}
+
+/* Custom Scrollbar for Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #555555 #333333;
+}
