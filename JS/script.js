@@ -11,17 +11,17 @@ let songs = [];
 
 const albums = [
   {
-    folder: "english",
+    folder: "English",
     title: "English Hits",
     description: "Top trending English songs",
-    cover: "songs/english/cover.jpg",
+    cover: "Songs/English/cover.jpg",
     tracks: ["Thunder.mp3", "IAmScaredLeo.mp3", "Believer.mp3"]
   },
   {
     folder: "Hindi",
     title: "Hindi Hits",
     description: "chill beats, lofi vibes, new tracks every week..",
-    cover: "songs/hindi/cover.jpg",
+    cover: "Songs/Hindi/cover.jpg",
     tracks: ["AarambhhaiPrachand.mp3", "HamNeTumKoDekha.mp3", "HawaHawa.mp3",
       "IkBagalmechand.mp3","PaisaHaiTohFarzi2023.mp3","SabKeSapnonKiKGFChapter1.mp3",
       "SenoritaZindagiNaMilegiDobara.mp3","TeriUngliPakadKeChala.mp3"
@@ -31,14 +31,14 @@ const albums = [
     folder: "Marathi",
     title: "Marathi Songs",
     description: "chill beats, lofi vibes, new tracks every week...",
-    cover: "songs/Marathi/cover.jpg",
+    cover: "Songs/Marathi/cover.jpg",
     tracks: ["TikTikVajateDokyaat.mp3"]
   },
   {
     folder: "South",
     title: "South Songs",
     description: "chill beats, lofi vibes, new tracks every week...",
-    cover: "songs/South/cover.jpg",
+    cover: "Songs/South/cover.jpg",
     tracks: ["AasaKoodaSaiAbhyankkar.mp3", "ChhotiStory.mp3", "Why This Kolaveri Di.mp3"]
   }
 
